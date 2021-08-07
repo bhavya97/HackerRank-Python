@@ -1,0 +1,8 @@
+int(input())
+a = set(map(int,input().split()))
+int(input())
+b = set(map(int,input().split()))
+print(len(a.union(b)))
+print(len(a.intersection(b)))
+print(a.difference(b))
+print(a.symmetric_difference(b))
